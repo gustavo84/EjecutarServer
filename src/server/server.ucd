@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="server" size="808,578" id="src.server" metadata="uml2-1.0" initialized="true" zoom="0.75" scrolledY="5" tag="1000" key="32303038303431342D313030302050726F796563746F2F677573">
+  <children xsi:type="editmodel:ClassEditModel" name="EjecutarServer" location="369,383" size="136,67" id="src.server/EjecutarServer" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="src.server/EjecutarServer#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Listener" location="90,344" size="148,211" id="src.server/Listener" runTimeClassModel="desconectar(),nUsuarios,run(),abSat,vaux,getInstancia(),ss,nMaxUsuarios">
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="list" id="src.server/Listener#list"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nMaxUsuarios" id="src.server/Listener#nMaxUsuarios"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nUsuarios" id="src.server/Listener#nUsuarios"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ss" id="src.server/Listener#ss"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vaux" id="src.server/Listener#vaux"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Listener" id="src.server/Listener#Listener()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="desconectar" id="src.server/Listener#desconectar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstancia" id="src.server/Listener#getInstancia()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="src.server/Listener#run()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ServidorMIDI" location="50,50" size="238,247" id="src.server/ServidorMIDI" runTimeClassModel="desconectar(),usuarioCurso,estado,so,run(),listaSockets,ServidorMIDI(Lsrc.server.SocketManager;),codAb,lista,enviarListaConexiones(Ljava.util.ArrayList;),cantidadCompra">
+    <children xsi:type="editmodel:CompartmentEditModel" size="215,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="cantidadCompra" id="src.server/ServidorMIDI#cantidadCompra"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="codAb" id="src.server/ServidorMIDI#codAb"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="estado" id="src.server/ServidorMIDI#estado"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lista" id="src.server/ServidorMIDI#lista"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="listaSockets" id="src.server/ServidorMIDI#listaSockets"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="so" id="src.server/ServidorMIDI#so"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="usuarioCurso" id="src.server/ServidorMIDI#usuarioCurso"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,72">
+      <children xsi:type="editmodel:MethodEditModel" name="ServidorMIDI" id="src.server/ServidorMIDI#ServidorMIDI(Lsrc.server.SocketManager;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="desconectar" id="src.server/ServidorMIDI#desconectar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="enviarListaConexiones" id="src.server/ServidorMIDI#enviarListaConexiones(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="src.server/ServidorMIDI#run()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SocketManager" location="599,58" size="141,229" id="src.server/SocketManager" runTimeClassModel="Leer(),SocketManager(Ljava.lang.String;I),SocketManager(Ljava.net.Socket;),InicializaStreams(),CerrarStreams(),Escribir([BI),CerrarSocket(),SocketManager(Ljava.net.InetAddress;I),mySocket,Escribir(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="mySocket" id="src.server/SocketManager#mySocket"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,162">
+      <children xsi:type="editmodel:MethodEditModel" name="CerrarSocket" id="src.server/SocketManager#CerrarSocket()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CerrarStreams" id="src.server/SocketManager#CerrarStreams()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Escribir" id="src.server/SocketManager#Escribir(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Escribir" id="src.server/SocketManager#Escribir([BI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="InicializaStreams" id="src.server/SocketManager#InicializaStreams()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Leer" id="src.server/SocketManager#Leer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SocketManager" id="src.server/SocketManager#SocketManager(Ljava.net.Socket;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SocketManager" id="src.server/SocketManager#SocketManager(Ljava.net.InetAddress;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SocketManager" id="src.server/SocketManager#SocketManager(Ljava.lang.String;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="UIAdministrador" location="338,50" size="167,283" id="src.server/UIAdministrador" runTimeClassModel="jList1,jLabel2,jLabel1,vaux1,jButton1,v,jPanel1,jButton2,titledBorder1,jTNMax,actionPerformed(Ljava.awt.event.ActionEvent;),border1,UIAdministrador()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="144,198">
+      <children xsi:type="editmodel:AttributeEditModel" name="border1" id="src.server/UIAdministrador#border1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jButton1" id="src.server/UIAdministrador#jButton1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jButton2" id="src.server/UIAdministrador#jButton2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel1" id="src.server/UIAdministrador#jLabel1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel2" id="src.server/UIAdministrador#jLabel2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jList1" id="src.server/UIAdministrador#jList1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jPanel1" id="src.server/UIAdministrador#jPanel1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jTNMax" id="src.server/UIAdministrador#jTNMax"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="titledBorder1" id="src.server/UIAdministrador#titledBorder1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="v" id="src.server/UIAdministrador#v"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vaux1" id="src.server/UIAdministrador#vaux1"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,36">
+      <children xsi:type="editmodel:MethodEditModel" name="UIAdministrador" id="src.server/UIAdministrador#UIAdministrador()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="src.server/UIAdministrador#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
